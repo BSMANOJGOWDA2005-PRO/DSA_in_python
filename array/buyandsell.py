@@ -22,3 +22,17 @@ for i in range(0,n):
     maxi = max(maxi,p)
 print(maxi)
 #Tc=O(n) and Sc=O(1)
+
+#-------------------------------------------------
+#find the maximum profit in O(n) time complexity
+#directly using min function to find the minimum price in the array
+price = [7,2,1,5,6,4,8]
+min_prices=float("inf")#i=nfinity
+maxi= 0
+n=len(price)
+for i in range(0,n):
+    min_prices=min(price)
+    p = price[i]-min_prices
+    maxi = max(maxi,p)
+print(maxi)
+#Tc=O(n) and Sc=O(1)
