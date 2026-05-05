@@ -35,3 +35,17 @@ print("popped element:", s.pop())
 print("popped element:", s.pop())
 
 print("Is stack empty?", s.is_empty())
+
+ #============================================================
+#   QUICK SUMMARY TABLE
+# ============================================================
+#
+#   Operation  |  Description              | Time Complexity
+#   -----------|---------------------------|----------------
+#   push(x)    |  Add element to top       |    O(1)
+#   pop()      |  Remove top element       |    O(1)
+#   peek()     |  View top (no remove)     |    O(1)
+#   isEmpty()  |  Check if stack is empty  |    O(1)
+#   size()     |  Get number of elements   |    O(1)
+#
+# ============================================================
