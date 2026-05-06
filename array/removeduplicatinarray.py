@@ -18,3 +18,17 @@ dic = {}
 for i in num:
     dic[i]=0
 print(dic)
+
+
+#checking for duplicates
+nums =[1,2,3,1]
+found = False
+for i in range(0,len(nums)-1):
+    for j in range(i+1,len(nums)):
+        if nums[i]==nums[j]:
+            found = True
+            break
+print(found)#output: True
+         
+    
+   
