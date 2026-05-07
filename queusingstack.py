@@ -1,0 +1,12 @@
+from collections import deque
+q = deque()
+q.append(1)
+q.append(2)
+q.append(3)
+print(q)#deque([1, 2, 3])
+q.pop()
+print(q)#deque([1, 2])
+q.appendleft(0)
+print(q)#deque([0, 1, 2])
+q.popleft()
+print(q)#deque([1, 2])
