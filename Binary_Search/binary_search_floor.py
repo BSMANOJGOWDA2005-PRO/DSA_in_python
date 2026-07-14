@@ -38,3 +38,13 @@ def find_floor(root, inp):
 
 inp = 12
 print("Floor:", find_floor(root, inp))
+
+'''
+            8
+          /   \
+         3     10
+        / \      \
+       1   6      14
+          / \     /
+         4   7   13
+'''
